@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UnityHelper'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of UnityHelper.'
 
 # This description is used to generate tags and improve search results.
@@ -36,9 +36,9 @@ TODO: Add long description of the pod here.
     ss.source_files = 'UnityHelper/Class/GWebViewManager/*{swift}'
   end
   
-  s.subspec 'GCoreMLManager' do |ss|
-    ss.source_files = 'UnityHelper/Class/GCoreMLManager/*{swift}'
-  end
+#  s.subspec 'GCoreMLManager' do |ss|
+#    ss.source_files = 'UnityHelper/Class/GCoreMLManager/*{swift}'
+#  end
   
   
   # s.resource_bundles = {
