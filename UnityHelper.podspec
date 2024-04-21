@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'UnityHelper/Classes/**/*'
   
   s.subspec 'GWKWebViewManager' do |ss|
-    ss.source_files = 'UnityHelper/Class/GWKWebViewManager/*.swift'
+    ss.source_files = 'UnityHelper/Classes/GWKWebViewManager/*.swift'
   end
   
 #  s.subspec 'GCoreMLManager' do |ss|
