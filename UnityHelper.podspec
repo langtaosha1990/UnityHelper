@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'UnityHelper/Classes/**/*'
   
   s.subspec 'GWKWebViewManager' do |ss|
-    ss.source_files = 'UnityHelper/Classes/GWKWebViewManager/*.{swift,h}'
+    ss.source_files = 'UnityHelper/Classes/GWKWebViewManager/*.swift'
     ss.public_header_files = ['UnityHelper/Classes/GWKWebViewManager/*.h']
   end
   
