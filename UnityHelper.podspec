@@ -26,6 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'langtaosha1990' => '13301245282@163.com' }
   s.source           = { :git => 'https://github.com/langtaosha1990/UnityHelper.git', :tag => s.version.to_s }
+  
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
@@ -34,6 +35,7 @@ TODO: Add long description of the pod here.
   
   s.subspec 'GWKWebViewManager' do |ss|
     ss.source_files = 'UnityHelper/Classes/GWKWebViewManager/*.swift'
+    ss.public_header_files = ['UnityHelper/Classes/GWKWebViewManager/*.h']
   end
   
 #  s.subspec 'GCoreMLManager' do |ss|
