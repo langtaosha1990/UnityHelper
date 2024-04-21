@@ -1,0 +1,39 @@
+{
+  "name": "UnityHelper",
+  "version": "0.1.0",
+  "summary": "A short description of UnityHelper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/langtaosha1990/UnityHelper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "langtaosha1990": "13301245282@163.com"
+  },
+  "source": {
+    "git": "https://github.com/langtaosha1990/UnityHelper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "UnityHelper/Classes/**/*",
+  "swift_versions": "5.0",
+  "frameworks": [
+    "WebKit",
+    "UIKit"
+  ],
+  "static_framework": true,
+  "subspecs": [
+    {
+      "name": "GWKWebViewManager",
+      "source_files": "UnityHelper/Class/GWebViewManager/*{swift}"
+    },
+    {
+      "name": "GCoreMLManager",
+      "source_files": "UnityHelper/Class/GCoreMLManager/*{swift}"
+    }
+  ],
+  "swift_version": "5.0"
+}

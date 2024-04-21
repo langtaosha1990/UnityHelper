@@ -1,0 +1,6 @@
+framework module UnityHelper {
+  umbrella header "UnityHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

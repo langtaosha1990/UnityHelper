@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - UnityHelper (0.1.0):
+    - UnityHelper/GCoreMLManager (= 0.1.0)
+    - UnityHelper/GWKWebViewManager (= 0.1.0)
+  - UnityHelper/GCoreMLManager (0.1.0)
+  - UnityHelper/GWKWebViewManager (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - UnityHelper (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  UnityHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  UnityHelper: 64077f849dca6a491725702fdecd866246ca9577
+
+PODFILE CHECKSUM: 99174a728822cf35196ad7386ca5e404ac88c33b
+
+COCOAPODS: 1.15.2
