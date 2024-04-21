@@ -32,11 +32,21 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'UnityHelper/Classes/**/*'
   
+  s.subspec 'GWKWebViewManager' do |ss|
+    ss.source_files = 'UnityHelper/Class/GWebViewManager/*{swift}'
+  end
+  
+  s.subspec 'GCoreMLManager' do |ss|
+    ss.source_files = 'UnityHelper/Class/GCoreMLManager/*{swift}'
+  end
+  
+  
   # s.resource_bundles = {
   #   'UnityHelper' => ['UnityHelper/Assets/*.png']
   # }
-
+  s.swift_versions = '5.0'
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'WebKit', 'UIKit'
+   s.static_framework = true
   # s.dependency 'AFNetworking', '~> 2.3'
 end
