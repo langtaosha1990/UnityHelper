@@ -124,7 +124,6 @@
 		DD5E91CBDF1CA3598E0015561ACB6FF7 /* Pods-UnityHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnityHelper_Example.modulemap"; sourceTree = "<group>"; };
 		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E7AB27BF3BDD1381D55CCE2839FD55B6 /* Pods-UnityHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnityHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F3CFD74C2BD571A600267155 /* GWebViewHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWebViewHeader.h; sourceTree = "<group>"; };
 		F8CC352D2641025489456E1BC8B81199 /* UnityHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnityHelper-Info.plist"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -277,7 +276,6 @@
 			isa = PBXGroup;
 			children = (
 				C03911D43AD164AD3E9CC0F55FBC4F44 /* GWKWebNavBackView.swift */,
-				F3CFD74C2BD571A600267155 /* GWebViewHeader.h */,
 				616E6FB3B1E5C979A4FB13CD9F20B4A7 /* GWKWebViewController.swift */,
 				BEE89FD4871088DF565719CF74021745 /* Pod */,
 				2D83AFB2416662CAABFF0F5BED7512D5 /* Support Files */,
