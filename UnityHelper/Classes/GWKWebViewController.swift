@@ -66,7 +66,7 @@ public class GWKWebViewController: UIViewController, WKNavigationDelegate, WKUID
     }()
     
 
-    init() {
+    public init() {
         super.init(nibName: nil, bundle: nil)
         // 在这里进行其他的初始化操作
         modalPresentationStyle = .fullScreen
