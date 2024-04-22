@@ -1,6 +1,6 @@
 {
   "name": "UnityHelper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "A short description of UnityHelper.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/langtaosha1990/UnityHelper",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/langtaosha1990/UnityHelper.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "cocoapods_version": ">= 1.13.0",
   "platforms": {
