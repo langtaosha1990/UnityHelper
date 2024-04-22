@@ -50,7 +50,7 @@
 		F3CFD71F2BD3D5A200267155 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		F3CFD7232BD3D6D100267155 /* GWKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GWKWebViewController.swift; sourceTree = "<group>"; };
 		F3CFD7252BD3DAAB00267155 /* WebView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = WebView.html; sourceTree = "<group>"; };
-		FB10317877E0A3F3A490914A /* UnityHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UnityHelper.podspec; path = ../UnityHelper.podspec; sourceTree = "<group>"; };
+		FB10317877E0A3F3A490914A /* UnityHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UnityHelper.podspec; path = ../UnityHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC47F866BE26AB3F3D0EA540 /* Pods-UnityHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnityHelper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UnityHelper_Tests/Pods-UnityHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -178,6 +178,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
+				FBF31FEC8224AB8FEA5EAB3A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -332,6 +333,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnityHelper_Tests/Pods-UnityHelper_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF31FEC8224AB8FEA5EAB3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnityHelper_Example/Pods-UnityHelper_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/UnityHelper/UnityHelper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UnityHelper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnityHelper_Example/Pods-UnityHelper_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

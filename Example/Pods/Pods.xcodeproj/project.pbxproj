@@ -7,48 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		192E97565C5BD8865DCE0E4837FD1A35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		1D9EEDE52BC8F11E47E8463A7C6C8B61 /* Pods-UnityHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8C5B1DDB46569B6C5BFAF09B207770 /* Pods-UnityHelper_Tests-dummy.m */; };
+		1D9EEDE52BC8F11E47E8463A7C6C8B61 /* Pods-UnityHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4898B7FA8BB65774D8E4BA3BE1AC1DBE /* Pods-UnityHelper_Tests-dummy.m */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1FBEFCC8B1C4BCBF8E08F1C15240EF8C /* GWKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616E6FB3B1E5C979A4FB13CD9F20B4A7 /* GWKWebViewController.swift */; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAD0F00CABDC1E4560880DDD5D61231 /* Foundation.framework */; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		3AFFDA3E4BF039828FAF82E2F6C85F7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
-		533F51374F70A50015847DBBB8FE6C61 /* UnityHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDC2177A4E26B47BE255CD4A5C6BE74 /* UnityHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AFFDA3E4BF039828FAF82E2F6C85F7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAD0F00CABDC1E4560880DDD5D61231 /* Foundation.framework */; };
+		46293A9305F97606A4CF5136D97D6588 /* GWKWebNavBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E743F90BA4A545A4C469C86BC70DA4 /* GWKWebNavBackView.swift */; };
+		4B7066B91BC8156B7CB6E8FBF365758D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAD0F00CABDC1E4560880DDD5D61231 /* Foundation.framework */; };
 		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5901FD32E2A548DD843D9572A040E4D3 /* GWKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC583DBDB0DA9AC1F4374ACE04116C3 /* GWKWebViewController.swift */; };
 		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
 		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		7373F1634D7BF3C9525080E53D36EFB3 /* Pods-UnityHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECD6B29729E6F14726D2075E02232A2 /* Pods-UnityHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7382C3D3D8E979DA515DECE267B8AC80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		6E653338DB06145C4FA74A1F160DF428 /* UnityHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA67F47BE557DDF5893FBCB7B03BD30 /* UnityHelper-dummy.m */; };
+		7373F1634D7BF3C9525080E53D36EFB3 /* Pods-UnityHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC2A54D29644ABE5AC71F4FD037D40A /* Pods-UnityHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7382C3D3D8E979DA515DECE267B8AC80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAD0F00CABDC1E4560880DDD5D61231 /* Foundation.framework */; };
 		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
+		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4327EE2C6044A51964FA1D5D610A1E34 /* UIKit.framework */; };
 		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
-		A312809EA97D17A839C8963996270323 /* Pods-UnityHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B889305BE11B287281FFD74EF81F32BB /* Pods-UnityHelper_Example-dummy.m */; };
-		A905F84CEDB9B795C2D0B49DAB68C094 /* Pods-UnityHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AB27BF3BDD1381D55CCE2839FD55B6 /* Pods-UnityHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF6DA1FAB88BE6A95670CECE2C0EFEF0 /* UnityHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7559DA77C30B70A9CCF981F4A0F4B7AA /* UnityHelper-dummy.m */; };
+		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A966B8A34B55EC242C09CDB41C74B98D /* XCTest.framework */; };
+		A312809EA97D17A839C8963996270323 /* Pods-UnityHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E6C270E66DE0A19F14524D5145A0CA /* Pods-UnityHelper_Example-dummy.m */; };
+		A3EE02849C0FC82D794196DADA77D251 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CFC705C0FE834F83CCF6E77BB4215E /* WebKit.framework */; };
+		A905F84CEDB9B795C2D0B49DAB68C094 /* Pods-UnityHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAF008449D64D070B9C386C19C4A0517 /* Pods-UnityHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB429595811D0A3EF7A58224AAD64F40 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4327EE2C6044A51964FA1D5D610A1E34 /* UIKit.framework */; };
 		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
 		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
-		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
+		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0741F58D1764827C251315378B60BC3D /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
-		D6AB544E34E84D249C46687867E7B37D /* GWKWebNavBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03911D43AD164AD3E9CC0F55FBC4F44 /* GWKWebNavBackView.swift */; };
+		FC26AEF0E43862473982F405EC2D4AC2 /* UnityHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C304AC54615AF21EB0FA07AD1FD089F /* UnityHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4FD8B72A1AF921E08134E7772D4DF462 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 950E278B754C8B4DD3FCC7394FAA1A57;
-			remoteInfo = "Pods-UnityHelper_Example";
-		};
 		742EF819F1324383E3BD43F795B9018D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -63,77 +58,88 @@
 			remoteGlobalIDString = 29D852C8B205FF0239B1B8843ED184F4;
 			remoteInfo = UnityHelper;
 		};
+		EC963B9C08013486CFD8BFF2D3C67900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 950E278B754C8B4DD3FCC7394FAA1A57;
+			remoteInfo = "Pods-UnityHelper_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0132E5ED9EDDE159216B210762835ABA /* Pods-UnityHelper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnityHelper_Tests-Info.plist"; sourceTree = "<group>"; };
+		03E743F90BA4A545A4C469C86BC70DA4 /* GWKWebNavBackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GWKWebNavBackView.swift; path = UnityHelper/Classes/GWKWebNavBackView.swift; sourceTree = "<group>"; };
+		06D22C16564331E203A8A04F4043F85B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0741F58D1764827C251315378B60BC3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		0C304AC54615AF21EB0FA07AD1FD089F /* UnityHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnityHelper-umbrella.h"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		1A8E86A1860E134DBB29869909407B8A /* UnityHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UnityHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		154672E025C289DFB82A400EC18C8F30 /* UnityHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UnityHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1E265DE56D4418EB7A9B883B4134BE67 /* Pods-UnityHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnityHelper_Example-Info.plist"; sourceTree = "<group>"; };
 		2101247F0FC24A1D1B922A261F2A051E /* UnityHelper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UnityHelper; path = UnityHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		234DD41D91774C729CF633711901C55C /* UnityHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UnityHelper.modulemap; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		2363C49854E7C317B410C9DD2C3F0710 /* Pods-UnityHelper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnityHelper_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		24CFC705C0FE834F83CCF6E77BB4215E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		29092256A0EE496C272C3AA7161EB55E /* UnityHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnityHelper.release.xcconfig; sourceTree = "<group>"; };
-		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		3309D1CE7BA2BD0CC11AA7DABBECD511 /* Pods-UnityHelper_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UnityHelper_Tests"; path = Pods_UnityHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		334B6521739A541BCC1F1C703245A110 /* Pods-UnityHelper_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UnityHelper_Example"; path = Pods_UnityHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36ACC9FBD681E0F70FE40449FF13E87B /* UnityHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnityHelper.debug.xcconfig; sourceTree = "<group>"; };
-		36E3A3EFD0DC86CDAD2BBA0FBCCBF0C3 /* Pods-UnityHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnityHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3ECD6B29729E6F14726D2075E02232A2 /* Pods-UnityHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnityHelper_Example-umbrella.h"; sourceTree = "<group>"; };
+		33E6C270E66DE0A19F14524D5145A0CA /* Pods-UnityHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnityHelper_Example-dummy.m"; sourceTree = "<group>"; };
+		3CC583DBDB0DA9AC1F4374ACE04116C3 /* GWKWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GWKWebViewController.swift; path = UnityHelper/Classes/GWKWebViewController.swift; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		40BEBDF383CC1F67238E25C560971414 /* Pods-UnityHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnityHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4327EE2C6044A51964FA1D5D610A1E34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		44465632FAE1D83561C939A3CF93EABE /* Pods-UnityHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnityHelper_Tests.modulemap"; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		45ECFC49D6B24C017794A80DBC3BE692 /* UnityHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UnityHelper.modulemap; sourceTree = "<group>"; };
-		48A36F18AAE7411EC6A4DBFEF12DD032 /* Pods-UnityHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnityHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4898B7FA8BB65774D8E4BA3BE1AC1DBE /* Pods-UnityHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnityHelper_Tests-dummy.m"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		52E7830EA04B8B81DE56CE68C73B8240 /* Pods-UnityHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnityHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		57F3B9BFDC0D16F8A7B32F007F3833E8 /* Pods-UnityHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnityHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5B64219397BF29B1549C5B7378095972 /* Pods-UnityHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnityHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5B8C5B1DDB46569B6C5BFAF09B207770 /* Pods-UnityHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnityHelper_Tests-dummy.m"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		616E6FB3B1E5C979A4FB13CD9F20B4A7 /* GWKWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GWKWebViewController.swift; path = UnityHelper/Classes/GWKWebViewManager/GWKWebViewController.swift; sourceTree = "<group>"; };
+		5CBFFC531998B83E1016A7130578A694 /* Pods-UnityHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnityHelper_Example.modulemap"; sourceTree = "<group>"; };
+		606E601FD0EA95478B02ECD266AB7846 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		61A99257697D741CCCA0F8D28BAF2CDF /* Pods-UnityHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnityHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		663222BFA26AD733388BC8217F526EB3 /* Pods-UnityHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnityHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		67B909DF0AA90A745241E361C628F8F7 /* Pods-UnityHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnityHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		7559DA77C30B70A9CCF981F4A0F4B7AA /* UnityHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UnityHelper-dummy.m"; sourceTree = "<group>"; };
+		6C0C1842A24ED87945E6D28A504FB7E4 /* UnityHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnityHelper-Info.plist"; sourceTree = "<group>"; };
+		74C90D55B6E781812F5FA1CDCEBB7C4E /* Pods-UnityHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnityHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		7EB4CD09CE9400F2679DA07FEB4CAF6D /* Pods-UnityHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnityHelper_Tests.modulemap"; sourceTree = "<group>"; };
-		7FDC2177A4E26B47BE255CD4A5C6BE74 /* UnityHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnityHelper-umbrella.h"; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		89A884D72A6CC990C9C9865847CDE67C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8D04F22DF7AE6CED62B9606E995217A3 /* Pods-UnityHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnityHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		910E215D38532804B490BBA2E56D51A9 /* Pods-UnityHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnityHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DBBD2C8CDA60BFF3A5A6B0709E426E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9EE9DD2514646A44A528ECDD9A7C7B84 /* UnityHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnityHelper-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A09FC9D4095BB8F4836C279021D4CE78 /* UnityHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnityHelper.debug.xcconfig; sourceTree = "<group>"; };
+		A8C8A0B93954C3EE7C3F1D6BED1EDFF2 /* Pods-UnityHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnityHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A966B8A34B55EC242C09CDB41C74B98D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AACF2C65FE96EAC12DA86E1C8B592F11 /* Pods-UnityHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnityHelper_Example-Info.plist"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		B889305BE11B287281FFD74EF81F32BB /* Pods-UnityHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnityHelper_Example-dummy.m"; sourceTree = "<group>"; };
-		B9D9D898CD203FB1A2C5FE45573C4355 /* Pods-UnityHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnityHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C03911D43AD164AD3E9CC0F55FBC4F44 /* GWKWebNavBackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GWKWebNavBackView.swift; path = UnityHelper/Classes/GWKWebViewManager/GWKWebNavBackView.swift; sourceTree = "<group>"; };
+		BDA67F47BE557DDF5893FBCB7B03BD30 /* UnityHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UnityHelper-dummy.m"; sourceTree = "<group>"; };
+		BFAB022499CAA555063ED471FB3ECB4A /* Pods-UnityHelper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnityHelper_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C4F7E8493E51A64E3FA378CB4315F3FA /* UnityHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnityHelper.release.xcconfig; sourceTree = "<group>"; };
+		CAF008449D64D070B9C386C19C4A0517 /* Pods-UnityHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnityHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CE0357C954971AE27FA40A33AE983806 /* Pods-UnityHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnityHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		D3C418BD08F6CE22E0404BAD8F2A4C64 /* Pods-UnityHelper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnityHelper_Tests-Info.plist"; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		DD5E91CBDF1CA3598E0015561ACB6FF7 /* Pods-UnityHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnityHelper_Example.modulemap"; sourceTree = "<group>"; };
-		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E7AB27BF3BDD1381D55CCE2839FD55B6 /* Pods-UnityHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnityHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F8CC352D2641025489456E1BC8B81199 /* UnityHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnityHelper-Info.plist"; sourceTree = "<group>"; };
+		D8C9911513601CB172565BFAE1D8B491 /* Pods-UnityHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnityHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DCC2A54D29644ABE5AC71F4FD037D40A /* Pods-UnityHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnityHelper_Example-umbrella.h"; sourceTree = "<group>"; };
+		E002F4C1DE690AE51673EE91A9EC3218 /* UnityHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnityHelper-prefix.pch"; sourceTree = "<group>"; };
+		ECAD0F00CABDC1E4560880DDD5D61231 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EE328CC21D3B015FF4C9821D1A8C4B58 /* Pods-UnityHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnityHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3A9E2209442AAB6E07FF026840D18AF9 /* Frameworks */ = {
+		1CA4450F125EBBC184DD44860B659F5C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				192E97565C5BD8865DCE0E4837FD1A35 /* Foundation.framework in Frameworks */,
+				4B7066B91BC8156B7CB6E8FBF365758D /* Foundation.framework in Frameworks */,
+				AB429595811D0A3EF7A58224AAD64F40 /* UIKit.framework in Frameworks */,
+				A3EE02849C0FC82D794196DADA77D251 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,27 +173,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1065A0CB15EA51CE617B845A94704847 /* Pods-UnityHelper_Tests */ = {
+		0173C6F8D0574633D9CCEC8A0FD2BE25 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7EB4CD09CE9400F2679DA07FEB4CAF6D /* Pods-UnityHelper_Tests.modulemap */,
-				40BEBDF383CC1F67238E25C560971414 /* Pods-UnityHelper_Tests-acknowledgements.markdown */,
-				48A36F18AAE7411EC6A4DBFEF12DD032 /* Pods-UnityHelper_Tests-acknowledgements.plist */,
-				5B8C5B1DDB46569B6C5BFAF09B207770 /* Pods-UnityHelper_Tests-dummy.m */,
-				2363C49854E7C317B410C9DD2C3F0710 /* Pods-UnityHelper_Tests-frameworks.sh */,
-				0132E5ED9EDDE159216B210762835ABA /* Pods-UnityHelper_Tests-Info.plist */,
-				E7AB27BF3BDD1381D55CCE2839FD55B6 /* Pods-UnityHelper_Tests-umbrella.h */,
-				57F3B9BFDC0D16F8A7B32F007F3833E8 /* Pods-UnityHelper_Tests.debug.xcconfig */,
-				663222BFA26AD733388BC8217F526EB3 /* Pods-UnityHelper_Tests.release.xcconfig */,
+				06D22C16564331E203A8A04F4043F85B /* LICENSE */,
+				606E601FD0EA95478B02ECD266AB7846 /* README.md */,
+				154672E025C289DFB82A400EC18C8F30 /* UnityHelper.podspec */,
 			);
-			name = "Pods-UnityHelper_Tests";
-			path = "Target Support Files/Pods-UnityHelper_Tests";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		16AF9BA496281FE5815008669B3F1FCF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9E31B83A6DFADE061A25FF79C22751AF /* UnityHelper */,
+				3D67706AD225C62D59183E3022D3551C /* UnityHelper */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -203,19 +202,48 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D83AFB2416662CAABFF0F5BED7512D5 /* Support Files */ = {
+		2BBE99316F6A2157940C1A66DF54CB1F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				45ECFC49D6B24C017794A80DBC3BE692 /* UnityHelper.modulemap */,
-				7559DA77C30B70A9CCF981F4A0F4B7AA /* UnityHelper-dummy.m */,
-				F8CC352D2641025489456E1BC8B81199 /* UnityHelper-Info.plist */,
-				9EE9DD2514646A44A528ECDD9A7C7B84 /* UnityHelper-prefix.pch */,
-				7FDC2177A4E26B47BE255CD4A5C6BE74 /* UnityHelper-umbrella.h */,
-				36ACC9FBD681E0F70FE40449FF13E87B /* UnityHelper.debug.xcconfig */,
-				29092256A0EE496C272C3AA7161EB55E /* UnityHelper.release.xcconfig */,
+				234DD41D91774C729CF633711901C55C /* UnityHelper.modulemap */,
+				BDA67F47BE557DDF5893FBCB7B03BD30 /* UnityHelper-dummy.m */,
+				6C0C1842A24ED87945E6D28A504FB7E4 /* UnityHelper-Info.plist */,
+				E002F4C1DE690AE51673EE91A9EC3218 /* UnityHelper-prefix.pch */,
+				0C304AC54615AF21EB0FA07AD1FD089F /* UnityHelper-umbrella.h */,
+				A09FC9D4095BB8F4836C279021D4CE78 /* UnityHelper.debug.xcconfig */,
+				C4F7E8493E51A64E3FA378CB4315F3FA /* UnityHelper.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/UnityHelper";
+			sourceTree = "<group>";
+		};
+		3425C8ADF2EE9AC541D796E62F9017D5 /* Pods-UnityHelper_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				44465632FAE1D83561C939A3CF93EABE /* Pods-UnityHelper_Tests.modulemap */,
+				CE0357C954971AE27FA40A33AE983806 /* Pods-UnityHelper_Tests-acknowledgements.markdown */,
+				8D04F22DF7AE6CED62B9606E995217A3 /* Pods-UnityHelper_Tests-acknowledgements.plist */,
+				4898B7FA8BB65774D8E4BA3BE1AC1DBE /* Pods-UnityHelper_Tests-dummy.m */,
+				BFAB022499CAA555063ED471FB3ECB4A /* Pods-UnityHelper_Tests-frameworks.sh */,
+				D3C418BD08F6CE22E0404BAD8F2A4C64 /* Pods-UnityHelper_Tests-Info.plist */,
+				CAF008449D64D070B9C386C19C4A0517 /* Pods-UnityHelper_Tests-umbrella.h */,
+				A8C8A0B93954C3EE7C3F1D6BED1EDFF2 /* Pods-UnityHelper_Tests.debug.xcconfig */,
+				D8C9911513601CB172565BFAE1D8B491 /* Pods-UnityHelper_Tests.release.xcconfig */,
+			);
+			name = "Pods-UnityHelper_Tests";
+			path = "Target Support Files/Pods-UnityHelper_Tests";
+			sourceTree = "<group>";
+		};
+		3D67706AD225C62D59183E3022D3551C /* UnityHelper */ = {
+			isa = PBXGroup;
+			children = (
+				03E743F90BA4A545A4C469C86BC70DA4 /* GWKWebNavBackView.swift */,
+				3CC583DBDB0DA9AC1F4374ACE04116C3 /* GWKWebViewController.swift */,
+				0173C6F8D0574633D9CCEC8A0FD2BE25 /* Pod */,
+				2BBE99316F6A2157940C1A66DF54CB1F /* Support Files */,
+			);
+			name = UnityHelper;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -239,26 +267,39 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		58D4957F159CB424A2B2B3849274237E /* Targets Support Files */ = {
+		4BB6B1B13D936B03A477F2836992E972 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				5D9BF239CFBB12B5D6D76732E7393065 /* Pods-UnityHelper_Example */,
-				1065A0CB15EA51CE617B845A94704847 /* Pods-UnityHelper_Tests */,
+				ECAD0F00CABDC1E4560880DDD5D61231 /* Foundation.framework */,
+				0741F58D1764827C251315378B60BC3D /* QuartzCore.framework */,
+				4327EE2C6044A51964FA1D5D610A1E34 /* UIKit.framework */,
+				24CFC705C0FE834F83CCF6E77BB4215E /* WebKit.framework */,
+				A966B8A34B55EC242C09CDB41C74B98D /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		66181500266AB4A58B73098FFC28F01D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D7B7F5505914766E7A5DBD592F799F4 /* Pods-UnityHelper_Example */,
+				3425C8ADF2EE9AC541D796E62F9017D5 /* Pods-UnityHelper_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5D9BF239CFBB12B5D6D76732E7393065 /* Pods-UnityHelper_Example */ = {
+		8D7B7F5505914766E7A5DBD592F799F4 /* Pods-UnityHelper_Example */ = {
 			isa = PBXGroup;
 			children = (
-				DD5E91CBDF1CA3598E0015561ACB6FF7 /* Pods-UnityHelper_Example.modulemap */,
-				36E3A3EFD0DC86CDAD2BBA0FBCCBF0C3 /* Pods-UnityHelper_Example-acknowledgements.markdown */,
-				52E7830EA04B8B81DE56CE68C73B8240 /* Pods-UnityHelper_Example-acknowledgements.plist */,
-				B889305BE11B287281FFD74EF81F32BB /* Pods-UnityHelper_Example-dummy.m */,
-				1E265DE56D4418EB7A9B883B4134BE67 /* Pods-UnityHelper_Example-Info.plist */,
-				3ECD6B29729E6F14726D2075E02232A2 /* Pods-UnityHelper_Example-umbrella.h */,
-				B9D9D898CD203FB1A2C5FE45573C4355 /* Pods-UnityHelper_Example.debug.xcconfig */,
-				5B64219397BF29B1549C5B7378095972 /* Pods-UnityHelper_Example.release.xcconfig */,
+				5CBFFC531998B83E1016A7130578A694 /* Pods-UnityHelper_Example.modulemap */,
+				67B909DF0AA90A745241E361C628F8F7 /* Pods-UnityHelper_Example-acknowledgements.markdown */,
+				74C90D55B6E781812F5FA1CDCEBB7C4E /* Pods-UnityHelper_Example-acknowledgements.plist */,
+				33E6C270E66DE0A19F14524D5145A0CA /* Pods-UnityHelper_Example-dummy.m */,
+				61A99257697D741CCCA0F8D28BAF2CDF /* Pods-UnityHelper_Example-frameworks.sh */,
+				AACF2C65FE96EAC12DA86E1C8B592F11 /* Pods-UnityHelper_Example-Info.plist */,
+				DCC2A54D29644ABE5AC71F4FD037D40A /* Pods-UnityHelper_Example-umbrella.h */,
+				EE328CC21D3B015FF4C9821D1A8C4B58 /* Pods-UnityHelper_Example.debug.xcconfig */,
+				910E215D38532804B490BBA2E56D51A9 /* Pods-UnityHelper_Example.release.xcconfig */,
 			);
 			name = "Pods-UnityHelper_Example";
 			path = "Target Support Files/Pods-UnityHelper_Example";
@@ -270,18 +311,6 @@
 				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
-		9E31B83A6DFADE061A25FF79C22751AF /* UnityHelper */ = {
-			isa = PBXGroup;
-			children = (
-				C03911D43AD164AD3E9CC0F55FBC4F44 /* GWKWebNavBackView.swift */,
-				616E6FB3B1E5C979A4FB13CD9F20B4A7 /* GWKWebViewController.swift */,
-				BEE89FD4871088DF565719CF74021745 /* Pod */,
-				2D83AFB2416662CAABFF0F5BED7512D5 /* Support Files */,
-			);
-			name = UnityHelper;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
@@ -299,10 +328,10 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
+				4BB6B1B13D936B03A477F2836992E972 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -314,17 +343,8 @@
 				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
 				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		BEE89FD4871088DF565719CF74021745 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				89A884D72A6CC990C9C9865847CDE67C /* LICENSE */,
-				9DBBD2C8CDA60BFF3A5A6B0709E426E6 /* README.md */,
-				1A8E86A1860E134DBB29869909407B8A /* UnityHelper.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -332,10 +352,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				16AF9BA496281FE5815008669B3F1FCF /* Development Pods */,
-				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				23BF0DA9D45E250E59BBD34A22A2DEC0 /* Products */,
-				58D4957F159CB424A2B2B3849274237E /* Targets Support Files */,
+				66181500266AB4A58B73098FFC28F01D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -347,25 +367,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
-				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
-				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
-				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0B1BE02D6FCDBD43122BE920C83A03D7 /* Headers */ = {
+		2B62EBD07424ED01835FF82B2FC8DF1F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				533F51374F70A50015847DBBB8FE6C61 /* UnityHelper-umbrella.h in Headers */,
+				FC26AEF0E43862473982F405EC2D4AC2 /* UnityHelper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,12 +414,12 @@
 /* Begin PBXNativeTarget section */
 		29D852C8B205FF0239B1B8843ED184F4 /* UnityHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8B7A4A1EE0A87552AB75F18B4557322 /* Build configuration list for PBXNativeTarget "UnityHelper" */;
+			buildConfigurationList = E65BBC3E01DFC537F24B98E5E77F9D11 /* Build configuration list for PBXNativeTarget "UnityHelper" */;
 			buildPhases = (
-				0B1BE02D6FCDBD43122BE920C83A03D7 /* Headers */,
-				ADFDC56DED1E7DB22E66B8A9DDF03605 /* Sources */,
-				3A9E2209442AAB6E07FF026840D18AF9 /* Frameworks */,
-				F6A6A270C571DDD6E5F3EB82EBB279B4 /* Resources */,
+				2B62EBD07424ED01835FF82B2FC8DF1F /* Headers */,
+				26575532F5A25DDC1AA7CB3583B196C4 /* Sources */,
+				1CA4450F125EBBC184DD44860B659F5C /* Frameworks */,
+				2E0EF3EC2C5F23EA0FA317166A65B186 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -434,7 +443,7 @@
 			);
 			dependencies = (
 				C68073D3E37F4C542218AE770AF95FF8 /* PBXTargetDependency */,
-				ACE124D534F975D6E38F0753A405A04B /* PBXTargetDependency */,
+				7B6AC778A012A6A0F24B9CF453EC1890 /* PBXTargetDependency */,
 			);
 			name = "Pods-UnityHelper_Tests";
 			productName = Pods_UnityHelper_Tests;
@@ -523,14 +532,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98AF5E79967DDC2AB01FCDBCEC727B4C /* Resources */ = {
+		2E0EF3EC2C5F23EA0FA317166A65B186 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6A6A270C571DDD6E5F3EB82EBB279B4 /* Resources */ = {
+		98AF5E79967DDC2AB01FCDBCEC727B4C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -540,21 +549,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		26575532F5A25DDC1AA7CB3583B196C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46293A9305F97606A4CF5136D97D6588 /* GWKWebNavBackView.swift in Sources */,
+				5901FD32E2A548DD843D9572A040E4D3 /* GWKWebViewController.swift in Sources */,
+				6E653338DB06145C4FA74A1F160DF428 /* UnityHelper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9D16F0F8224F28EFC5D17FC194EB9E79 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1D9EEDE52BC8F11E47E8463A7C6C8B61 /* Pods-UnityHelper_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADFDC56DED1E7DB22E66B8A9DDF03605 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D6AB544E34E84D249C46687867E7B37D /* GWKWebNavBackView.swift in Sources */,
-				1FBEFCC8B1C4BCBF8E08F1C15240EF8C /* GWKWebViewController.swift in Sources */,
-				AF6DA1FAB88BE6A95670CECE2C0EFEF0 /* UnityHelper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,11 +600,11 @@
 			target = 29D852C8B205FF0239B1B8843ED184F4 /* UnityHelper */;
 			targetProxy = E135F845CBF1CE9E776328B847A57142 /* PBXContainerItemProxy */;
 		};
-		ACE124D534F975D6E38F0753A405A04B /* PBXTargetDependency */ = {
+		7B6AC778A012A6A0F24B9CF453EC1890 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-UnityHelper_Example";
 			target = 950E278B754C8B4DD3FCC7394FAA1A57 /* Pods-UnityHelper_Example */;
-			targetProxy = 4FD8B72A1AF921E08134E7772D4DF462 /* PBXContainerItemProxy */;
+			targetProxy = EC963B9C08013486CFD8BFF2D3C67900 /* PBXContainerItemProxy */;
 		};
 		C68073D3E37F4C542218AE770AF95FF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -639,7 +648,7 @@
 		};
 		10FF0A960A0999BD15EFB2004653256B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B64219397BF29B1549C5B7378095972 /* Pods-UnityHelper_Example.release.xcconfig */;
+			baseConfigurationReference = 910E215D38532804B490BBA2E56D51A9 /* Pods-UnityHelper_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -673,7 +682,7 @@
 		};
 		48FBD3DFCF18AA0CD0F3EEE48BB46B69 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57F3B9BFDC0D16F8A7B32F007F3833E8 /* Pods-UnityHelper_Tests.debug.xcconfig */;
+			baseConfigurationReference = A8C8A0B93954C3EE7C3F1D6BED1EDFF2 /* Pods-UnityHelper_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -759,7 +768,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -795,9 +805,9 @@
 			};
 			name = Debug;
 		};
-		B71EE6115733F53EC2CF972D6232A5D8 /* Debug */ = {
+		86B779590FA2C68C7D76A564A3EA51B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36ACC9FBD681E0F70FE40449FF13E87B /* UnityHelper.debug.xcconfig */;
+			baseConfigurationReference = A09FC9D4095BB8F4836C279021D4CE78 /* UnityHelper.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -813,23 +823,54 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/UnityHelper/UnityHelper.modulemap";
 				PRODUCT_MODULE_NAME = UnityHelper;
 				PRODUCT_NAME = UnityHelper;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
+		AAB097461D4F63CD1020137A20BBAAFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4F7E8493E51A64E3FA378CB4315F3FA /* UnityHelper.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UnityHelper/UnityHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UnityHelper/UnityHelper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UnityHelper/UnityHelper.modulemap";
+				PRODUCT_MODULE_NAME = UnityHelper;
+				PRODUCT_NAME = UnityHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		CA9EECF1CD3C50A7C144B2B62D1BE786 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 663222BFA26AD733388BC8217F526EB3 /* Pods-UnityHelper_Tests.release.xcconfig */;
+			baseConfigurationReference = D8C9911513601CB172565BFAE1D8B491 /* Pods-UnityHelper_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -927,42 +968,9 @@
 			};
 			name = Debug;
 		};
-		E1F54C1F50D2C7DA648C0BEF3B03340A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29092256A0EE496C272C3AA7161EB55E /* UnityHelper.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UnityHelper/UnityHelper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UnityHelper/UnityHelper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/UnityHelper/UnityHelper.modulemap";
-				PRODUCT_MODULE_NAME = UnityHelper;
-				PRODUCT_NAME = UnityHelper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F91B14BAB112736F8F3DD85949CBCDA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9D9D898CD203FB1A2C5FE45573C4355 /* Pods-UnityHelper_Example.debug.xcconfig */;
+			baseConfigurationReference = EE328CC21D3B015FF4C9821D1A8C4B58 /* Pods-UnityHelper_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1032,11 +1040,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8B7A4A1EE0A87552AB75F18B4557322 /* Build configuration list for PBXNativeTarget "UnityHelper" */ = {
+		E65BBC3E01DFC537F24B98E5E77F9D11 /* Build configuration list for PBXNativeTarget "UnityHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B71EE6115733F53EC2CF972D6232A5D8 /* Debug */,
-				E1F54C1F50D2C7DA648C0BEF3B03340A /* Release */,
+				86B779590FA2C68C7D76A564A3EA51B4 /* Debug */,
+				AAB097461D4F63CD1020137A20BBAAFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

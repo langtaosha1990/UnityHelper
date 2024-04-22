@@ -36,9 +36,9 @@ public enum URLType {
     case localFile
 }
 
-class GWKWebViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
+public class GWKWebViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
     
-    fileprivate lazy var navBackView: GWKWebNavBackView = {
+    public lazy var navBackView: GWKWebNavBackView = {
         let backView = GWKWebNavBackView();
         backView.frame = CGRectMake(0, 0, WKWebviewControllerScreenWidth, WKWebviewControllerTopHeight)
         backView.backgroundColor = UIColor.init(red: 237 / 255.0, green: 231 / 255.0, blue: 221 / 255.0, alpha: 1.0)
@@ -47,7 +47,7 @@ class GWKWebViewController: UIViewController, WKNavigationDelegate, WKUIDelegate
     }()
     
     
-    fileprivate lazy var webView: WKWebView = {
+    public lazy var webView: WKWebView = {
         let configuration = WKWebViewConfiguration()
         configuration.userContentController.add(self, name: "callbackHandler")
         let webView = WKWebView(frame:.zero, configuration: configuration)
@@ -72,7 +72,7 @@ class GWKWebViewController: UIViewController, WKNavigationDelegate, WKUIDelegate
         modalPresentationStyle = .fullScreen
     }
     
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         addKVOObserver()
@@ -96,7 +96,7 @@ class GWKWebViewController: UIViewController, WKNavigationDelegate, WKUIDelegate
         fatalError("init(coder:) has not been implemented")
     }
     
-    func loadWebView(_ urlStr:String, _ type : URLType) {
+    public func loadWebView(_ urlStr:String, _ type : URLType) {
         if type == .localFile {
             let url = URL(fileURLWithPath: urlStr)
             webView.loadFileURL(url, allowingReadAccessTo: url)
@@ -109,7 +109,7 @@ class GWKWebViewController: UIViewController, WKNavigationDelegate, WKUIDelegate
     }
     
     //MARK: - 添加观察者
-    fileprivate func addKVOObserver(){
+    public func addKVOObserver(){
         self.webView.addObserver(
             self,
             forKeyPath: "estimatedProgress",
@@ -139,7 +139,7 @@ class GWKWebViewController: UIViewController, WKNavigationDelegate, WKUIDelegate
 }
 
 extension GWKWebViewController {
-    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+    public override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         if keyPath == "estimatedProgress" {
             print("进度:", self.webView.estimatedProgress)
             self.navBackView.progress.alpha = 1.0
@@ -192,7 +192,7 @@ extension GWKWebViewController : WKScriptMessageHandler {
         
     }
     
-    func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
+    public func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
         if message.name == "callbackHandler" {
             // 处理来自 JavaScript 的消息
             if let messageBody = message.body as? String {

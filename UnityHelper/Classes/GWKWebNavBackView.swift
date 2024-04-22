@@ -5,7 +5,7 @@
 //  Created by Gpf 郭 on 2024/4/21.
 //
 import UIKit
-class GWKWebNavBackView: UIView {
+public class GWKWebNavBackView: UIView {
     lazy var dismissBtn:UIButton = {
         let btn = UIButton(type: .system)
         btn.frame = CGRectMake(WKWebviewControllerScreenWidth - 80, WKWebviewControllerStatusBarHeight + 10, 50, 30)
