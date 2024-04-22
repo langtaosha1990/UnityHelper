@@ -5,7 +5,7 @@
 //  Created by Gpf 郭 on 2024/4/21.
 //
 import UIKit
-public class GWKWebNavBackView: UIView {
+open class GWKWebNavBackView: UIView {
     lazy var dismissBtn:UIButton = {
         let btn = UIButton(type: .system)
         btn.frame = CGRectMake(WKWebviewControllerScreenWidth - 80, WKWebviewControllerStatusBarHeight + 10, 50, 30)
@@ -43,7 +43,7 @@ public class GWKWebNavBackView: UIView {
         addSubview(progress)
       }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }

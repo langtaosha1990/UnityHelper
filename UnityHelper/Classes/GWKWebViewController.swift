@@ -36,7 +36,7 @@ public enum URLType {
     case localFile
 }
 
-public class GWKWebViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
+open class GWKWebViewController: UIViewController, WKNavigationDelegate, WKUIDelegate {
     
     public lazy var navBackView: GWKWebNavBackView = {
         let backView = GWKWebNavBackView();
@@ -92,7 +92,7 @@ public class GWKWebViewController: UIViewController, WKNavigationDelegate, WKUID
         self.webView.goBack()
     }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
