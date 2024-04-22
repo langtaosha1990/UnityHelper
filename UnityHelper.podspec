@@ -31,11 +31,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'UnityHelper/Classes/**/*.swift'
-  
-  s.subspec 'GWKWebViewManager' do |ss|
-    ss.source_files = 'UnityHelper/Classes/GWKWebViewManager/*.swift'
-  end
+  s.source_files = 'UnityHelper/**/*.swift'
+#  s.source_files = 'Source/**/*.swift'
+#  s.subspec 'GWKWebViewManager' do |ss|
+#    ss.source_files = 'UnityHelper/Classes/GWKWebViewManager/*.swift'
+#  end
   
 #  s.subspec 'GCoreMLManager' do |ss|
 #    ss.source_files = 'UnityHelper/Class/GCoreMLManager/*{swift}'
@@ -48,6 +48,6 @@ TODO: Add long description of the pod here.
   s.swift_versions = ['5']
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'WebKit', 'UIKit'
-   s.static_framework = true
+#   s.static_framework = true
   # s.dependency 'AFNetworking', '~> 2.3'
 end
