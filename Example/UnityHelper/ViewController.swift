@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UnityHelper
 
 
 class ViewController: UIViewController {
@@ -23,16 +24,8 @@ class ViewController: UIViewController {
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-
-//        let url = "/Users/gpf/CodeField/PrivatePods/pods/UnityHelper/Example/UnityHelper/WebView.html";
-//        let webView = GWKWebViewController();
-//        webView.loadWebView(url)
-//        webView.loadWebView(url: "https://www.baidu.com/")
-        if let url = Bundle.main.path(forResource: "WebView", ofType: "html") {
-            let webView = GWKWebViewController();
-            webView.loadWebView(url)
-            self.present(webView, animated: true)
-        }
+        let model = GTestModel(name: "gpf", age: 18)
+        model.SayHai()
         
     }
 

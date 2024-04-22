@@ -16,7 +16,6 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		F0CF4FD34C62A42022DC619D /* Pods_UnityHelper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF704DDEAEB8DCC68E90D0FE /* Pods_UnityHelper_Tests.framework */; };
 		F3CFD7202BD3D5A200267155 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CFD71F2BD3D5A200267155 /* TestView.swift */; };
-		F3CFD7242BD3D6D100267155 /* GWKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CFD7232BD3D6D100267155 /* GWKWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		D34F1FF290025AA8435AA399 /* Pods-UnityHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnityHelper_Example.release.xcconfig"; path = "Target Support Files/Pods-UnityHelper_Example/Pods-UnityHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E14C1C1827A2185A7198C293 /* Pods-UnityHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnityHelper_Example.debug.xcconfig"; path = "Target Support Files/Pods-UnityHelper_Example/Pods-UnityHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F3CFD71F2BD3D5A200267155 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
-		F3CFD7232BD3D6D100267155 /* GWKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GWKWebViewController.swift; sourceTree = "<group>"; };
 		F3CFD7252BD3DAAB00267155 /* WebView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = WebView.html; sourceTree = "<group>"; };
 		FB10317877E0A3F3A490914A /* UnityHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UnityHelper.podspec; path = ../UnityHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC47F866BE26AB3F3D0EA540 /* Pods-UnityHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnityHelper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UnityHelper_Tests/Pods-UnityHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -109,7 +107,6 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				F3CFD7232BD3D6D100267155 /* GWKWebViewController.swift */,
 				F3CFD71F2BD3D5A200267155 /* TestView.swift */,
 				F3CFD7252BD3DAAB00267155 /* WebView.html */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -363,7 +360,6 @@
 				F3CFD7202BD3D5A200267155 /* TestView.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				F3CFD7242BD3D6D100267155 /* GWKWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
